@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Pre-Order Toko Roti</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22 font-size=%2280%22><text y=%2280%22>🍞</text></svg>" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <svg width="0" height="0" style="position: absolute" aria-hidden="true" focusable="false">
+      <defs>
+        <linearGradient id="gl" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#F2A650" />
+          <stop offset="1" stop-color="#B9651A" />
+        </linearGradient>
+        <linearGradient id="gb" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#F7C26B" />
+          <stop offset="1" stop-color="#D98A2F" />
+        </linearGradient>
+        <linearGradient id="gp" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#FFB6C8" />
+          <stop offset="1" stop-color="#F27A9C" />
+        </linearGradient>
+        <linearGradient id="gd" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#C98B4A" />
+          <stop offset="1" stop-color="#8A5424" />
+        </linearGradient>
+        <linearGradient id="gy" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#FFE9A6" />
+          <stop offset="1" stop-color="#F5C75A" />
+        </linearGradient>
+        <clipPath id="cm"><ellipse cx="60" cy="48" rx="42" ry="32" /></clipPath>
+      </defs>
+      <symbol id="i-loaf" viewBox="0 0 120 90">
+        <ellipse cx="60" cy="80" rx="46" ry="6" fill="#000" opacity=".12" />
+        <path
+          d="M10 50C10 28 31 12 60 12s50 16 50 38c0 15-8 26-21 26H31C18 76 10 65 10 50Z"
+          fill="url(#gl)"
+        />
+        <path
+          d="M24 40C28 26 42 19 60 19"
+          fill="none"
+          stroke="#fff"
+          stroke-opacity=".35"
+          stroke-width="5"
+          stroke-linecap="round"
+        />
+        <g fill="none" stroke="#FFE7BF" stroke-width="5" stroke-linecap="round">
+          <path d="M40 33q7 10 4 22" />
+          <path d="M60 28q7 12 4 26" />
+          <path d="M80 33q7 10 4 22" />
+        </g>
+      </symbol>
+      <symbol id="p-sobek" viewBox="0 0 120 90">
+        <ellipse cx="60" cy="80" rx="46" ry="6" fill="#000" opacity=".12" />
+        <rect x="12" y="26" width="96" height="50" rx="16" fill="#C97A2B" />
+        <g fill="url(#gb)" stroke="#B9651A" stroke-width="1.5">
+          <circle cx="34" cy="42" r="15" />
+          <circle cx="60" cy="40" r="15" />
+          <circle cx="86" cy="42" r="15" />
+          <circle cx="34" cy="62" r="15" />
+          <circle cx="60" cy="62" r="15" />
+          <circle cx="86" cy="62" r="15" />
+        </g>
+        <g fill="none" stroke="#4A2412" stroke-width="4.5" stroke-linecap="round">
+          <path d="M22 44q9-9 19 0t19 0t19 0t19 0" />
+          <path d="M26 64q9-8 17 0t17 0t17 0t17 0" />
+        </g>
+      </symbol>
+      <symbol id="p-croissant" viewBox="0 0 120 90">
+        <ellipse cx="60" cy="80" rx="46" ry="6" fill="#000" opacity=".12" />
+        <g fill="url(#gb)" stroke="#B9651A" stroke-width="1.5">
+          <ellipse cx="22" cy="58" rx="12" ry="9" transform="rotate(-30 22 58)" />
+          <ellipse cx="98" cy="58" rx="12" ry="9" transform="rotate(30 98 58)" />
+          <ellipse cx="36" cy="46" rx="15" ry="13" transform="rotate(-20 36 46)" />
+          <ellipse cx="84" cy="46" rx="15" ry="13" transform="rotate(20 84 46)" />
+          <ellipse cx="60" cy="40" rx="20" ry="17" />
+        </g>
+        <path
+          d="M46 28q-4 14 2 26M60 24v32M74 28q4 14-2 26"
+          fill="none"
+          stroke="#B9651A"
+          stroke-opacity=".5"
+          stroke-width="2.5"
+          stroke-linecap="round"
+        />
+      </symbol>
+      <symbol id="p-keju" viewBox="0 0 120 90">
+        <ellipse cx="60" cy="80" rx="46" ry="6" fill="#000" opacity=".12" />
+        <path
+          d="M12 58C12 38 32 26 60 26s48 12 48 32c0 11-9 18-21 18H33C21 76 12 69 12 58Z"
+          fill="url(#gl)"
+        />
+        <path d="M30 44h60l-9 18H39z" fill="#FFD54A" />
+        <circle cx="48" cy="52" r="2.5" fill="#F2B705" />
+        <circle cx="70" cy="54" r="2" fill="#F2B705" />
+        <g fill="#FFF0B8" stroke="#E2B24A" stroke-width="1.5">
+          <circle cx="40" cy="36" r="7" />
+          <circle cx="60" cy="32" r="7" />
+          <circle cx="80" cy="36" r="7" />
+        </g>
+      </symbol>
+      <symbol id="p-donat" viewBox="0 0 120 90">
+        <ellipse cx="60" cy="80" rx="46" ry="6" fill="#000" opacity=".12" />
+        <path
+          fill-rule="evenodd"
+          d="M16 46a44 30 0 1 0 88 0a44 30 0 1 0 -88 0ZM47 46a13 9 0 1 1 26 0a13 9 0 1 1 -26 0Z"
+          fill="url(#gb)"
+        />
+        <path
+          fill-rule="evenodd"
+          d="M20 42a40 26 0 1 0 80 0a40 26 0 1 0 -80 0ZM47 42a13 8 0 1 1 26 0a13 8 0 1 1 -26 0Z"
+          fill="url(#gp)"
+        />
+        <g stroke-width="3.5" stroke-linecap="round">
+          <path d="M34 30l5 3" stroke="#fff" />
+          <path d="M52 24l1 5" stroke="#FFD54A" />
+          <path d="M78 26l-4 4" stroke="#7DD3FC" />
+          <path d="M90 40l-5 1" stroke="#fff" />
+          <path d="M30 46l5 1" stroke="#7DD3FC" />
+          <path d="M86 54l-4-3" stroke="#FFD54A" />
+          <path d="M42 58l5-2" stroke="#fff" />
+          <path d="M68 62l1-5" stroke="#FFD54A" />
+        </g>
+      </symbol>
+      <symbol id="p-cinnamon" viewBox="0 0 120 90">
+        <ellipse cx="60" cy="80" rx="46" ry="6" fill="#000" opacity=".12" />
+        <ellipse
+          cx="60"
+          cy="48"
+          rx="44"
+          ry="32"
+          fill="url(#gb)"
+          stroke="#B9651A"
+          stroke-width="1.5"
+        />
+        <path
+          d="M60 48a5 4 0 1 1 10 0a11 8 0 1 1 -22 0a18 13 0 1 1 36 0a25 18 0 1 1 -50 0a32 24 0 1 1 64 0"
+          fill="none"
+          stroke="#7A3E1D"
+          stroke-width="3.5"
+          stroke-linecap="round"
+          opacity=".85"
+        />
+        <g fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".9">
+          <path d="M30 36q8 7 16 0t16 0t16 0t16 0" />
+          <path d="M34 60q9 7 18 0t18 0t14 0" />
+        </g>
+      </symbol>
+      <symbol id="p-baguette" viewBox="0 0 120 90">
+        <ellipse cx="60" cy="78" rx="48" ry="5" fill="#000" opacity=".12" />
+        <g transform="rotate(-16 60 46)">
+          <rect x="4" y="32" width="112" height="28" rx="14" fill="url(#gl)" />
+          <g fill="none" stroke="#FFE7BF" stroke-width="4" stroke-linecap="round">
+            <path d="M24 40l8 12" />
+            <path d="M46 40l8 12" />
+            <path d="M68 40l8 12" />
+            <path d="M90 40l8 12" />
+          </g>
+        </g>
+      </symbol>
+      <symbol id="p-gandum" viewBox="0 0 120 90">
+        <ellipse cx="60" cy="80" rx="46" ry="6" fill="#000" opacity=".12" />
+        <path
+          d="M10 54C10 30 31 14 60 14s50 16 50 40c0 14-8 22-21 22H31C18 76 10 68 10 54Z"
+          fill="url(#gd)"
+        />
+        <path
+          d="M26 38C32 26 44 20 58 20"
+          fill="none"
+          stroke="#fff"
+          stroke-opacity=".3"
+          stroke-width="5"
+          stroke-linecap="round"
+        />
+        <g fill="#F7E2B5">
+          <ellipse cx="40" cy="38" rx="3.5" ry="1.8" transform="rotate(-30 40 38)" />
+          <ellipse cx="60" cy="30" rx="3.5" ry="1.8" transform="rotate(20 60 30)" />
+          <ellipse cx="80" cy="38" rx="3.5" ry="1.8" transform="rotate(-10 80 38)" />
+          <ellipse cx="50" cy="52" rx="3.5" ry="1.8" transform="rotate(35 50 52)" />
+          <ellipse cx="72" cy="54" rx="3.5" ry="1.8" transform="rotate(-25 72 54)" />
+          <ellipse cx="92" cy="54" rx="3.5" ry="1.8" />
+          <ellipse cx="30" cy="56" rx="3.5" ry="1.8" transform="rotate(15 30 56)" />
+        </g>
+      </symbol>
+      <symbol id="p-bagel" viewBox="0 0 120 90">
+        <ellipse cx="60" cy="80" rx="46" ry="6" fill="#000" opacity=".12" />
+        <path
+          fill-rule="evenodd"
+          d="M14 46a46 31 0 1 0 92 0a46 31 0 1 0 -92 0ZM46 46a14 9 0 1 1 28 0a14 9 0 1 1 -28 0Z"
+          fill="url(#gb)"
+          stroke="#B9651A"
+          stroke-width="1.5"
+        />
+        <g fill="#FFF3D6">
+          <ellipse cx="28" cy="44" rx="3" ry="1.5" transform="rotate(-60 28 44)" />
+          <ellipse cx="36" cy="30" rx="3" ry="1.5" transform="rotate(-30 36 30)" />
+          <ellipse cx="52" cy="22" rx="3" ry="1.5" />
+          <ellipse cx="70" cy="22" rx="3" ry="1.5" transform="rotate(10 70 22)" />
+          <ellipse cx="88" cy="30" rx="3" ry="1.5" transform="rotate(35 88 30)" />
+          <ellipse cx="94" cy="46" rx="3" ry="1.5" transform="rotate(70 94 46)" />
+          <ellipse cx="86" cy="62" rx="3" ry="1.5" transform="rotate(-35 86 62)" />
+          <ellipse cx="66" cy="68" rx="3" ry="1.5" />
+          <ellipse cx="46" cy="68" rx="3" ry="1.5" transform="rotate(20 46 68)" />
+          <ellipse cx="30" cy="58" rx="3" ry="1.5" transform="rotate(40 30 58)" />
+        </g>
+      </symbol>
+      <symbol id="p-melonpan" viewBox="0 0 120 90">
+        <ellipse cx="60" cy="80" rx="46" ry="6" fill="#000" opacity=".12" />
+        <ellipse
+          cx="60"
+          cy="48"
+          rx="42"
+          ry="32"
+          fill="url(#gy)"
+          stroke="#D9A441"
+          stroke-width="1.5"
+        />
+        <g clip-path="url(#cm)" stroke="#D9A441" stroke-width="2.5" opacity=".8" fill="none">
+          <path d="M0 20L100 90M0 38L80 96M20 8L120 76M44 4L120 54M0 2L70 50" />
+          <path d="M120 20L20 90M120 38L40 96M100 8L0 76M76 4L0 54M120 2L50 50" />
+        </g>
+      </symbol>
+      <symbol id="p-muffin" viewBox="0 0 120 90">
+        <ellipse cx="60" cy="80" rx="38" ry="5" fill="#000" opacity=".12" />
+        <path
+          d="M22 52C16 26 38 12 60 12s44 14 38 40Z"
+          fill="url(#gb)"
+          stroke="#B9651A"
+          stroke-width="1.5"
+        />
+        <g fill="#4C5BA8">
+          <circle cx="44" cy="30" r="4" />
+          <circle cx="66" cy="24" r="4" />
+          <circle cx="78" cy="38" r="4" />
+          <circle cx="54" cy="42" r="3.5" />
+        </g>
+        <path d="M26 50h68l-8 28H34z" fill="#E7A8B8" />
+        <path
+          d="M44 52l-3 26M60 52v26M76 52l3 26"
+          stroke="#fff"
+          stroke-opacity=".6"
+          stroke-width="2"
+        />
+      </symbol>
+      <symbol id="i-user" viewBox="0 0 24 24">
+        <circle cx="12" cy="8" r="4" />
+        <path d="M4 21c0-4 4-6 8-6s8 2 8 6" />
+      </symbol>
+      <symbol id="i-lock" viewBox="0 0 24 24">
+        <rect x="4" y="11" width="16" height="10" rx="3" />
+        <path d="M8 11V8a4 4 0 018 0v3" />
+      </symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" /></symbol>
+      <symbol id="i-eye" viewBox="0 0 24 24">
+        <path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12Z" />
+        <circle cx="12" cy="12" r="3" />
+      </symbol>
+    </svg>
+    <header class="hd">
+      <div class="w">
+        <span class="br"
+          ><svg class="bi" viewBox="0 0 120 90" aria-hidden="true"><use href="#i-loaf" /></svg>Toko
+          Roti</span
+        >
+        <nav id="nav" aria-label="Menu utama"></nav>
+      </div>
+    </header>
+    <main class="w" id="app"></main>
+    <dialog id="dlg"></dialog>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <script src="js/utils.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/views.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
